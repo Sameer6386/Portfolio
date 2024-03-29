@@ -12,10 +12,9 @@ const Navbar = () => {
     };
 
     return (
-        <div className='bg-blue-300 px-4 sm:px-8 mx-auto max-w-[1500px] h-[8vh]'>
+        <div className=' px-4 sm:px-8 mx-auto max-w-[1500px] h-[8vh]'>
             {/* Navbar container */}
             <div className="flex items-center justify-between h-12 lg:h-20 bg-[#223]/30 rounded-b-3xl shadow-lg px-4">
-                
                 {/* Brand/logo */}
                 <div className="text-white text-xl sm:text-2xl">
                     <a href='#' className='font-bold'><span>Mohd Sameer</span></a>
@@ -33,6 +32,18 @@ const Navbar = () => {
                 <div onClick={handleNav} className='block md:hidden text-white z-40'>
                     {nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}
                 </div>
+            </div>
+
+            {/* Mobile Navigation */}
+            <div className={nav ? 'z-30 text-gray-300 fixed h-[50%] left-0 top-0 w-full bg-[#202121] ease-in-out duration-500' 
+                            : 'fixed left-[-100%]'}>
+                <h1 className='text-3xl gray-primary-color m-4'>M.Sameer</h1>
+                <ul className='p-8 text-4xl ml-20'>
+                    <li className='p-2'><NavLink to="/" activeClassName="selected">Home</NavLink></li>
+                    <li className='p-2'><NavLink to="/" activeClassName="text-black">About</NavLink></li>
+                    <li className='p-2'><NavLink to="/" activeClassName="text-black">Portfolio</NavLink></li>
+                    <li className='p-2'><NavLink to="/" activeClassName="text-black">Contact</NavLink></li>
+                </ul>
             </div>
         </div>
     );
