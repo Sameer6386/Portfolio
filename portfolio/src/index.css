@@ -2,33 +2,27 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Noto+Sans:ital@0;1&display=swap');
 
 body {
-  /* Setting up the body background with a linear gradient */
-  background: rgb(1, 72, 113);
-  background: linear-gradient(130deg, rgba(1, 72, 113, 1) 0%, rgba(198, 218, 208, 1) 100%);
-  /* Setting up font-family for the body */
-  font-family: "Inter", sans-serif;
+    background: rgb(1,72,113);
+    background: linear-gradient(130deg, rgba(1,72,113,1) 0%, rgba(198,218,208,1) 100%);
+    font-family: "Inter", sans-serif;
 }
 
-/* Styling for spans and elements with the 'active' class */
 span,
 .active {
-  @apply bg-gradient-to-b from-sky-200 to-blue-300 bg-clip-text font-bold text-transparent;
+    @apply bg-gradient-to-b from-sky-200 to-blue-300 bg-clip-text font-bold text-transparent
 }
 
-/* Utility class for setting background color with a gradient */
 .bg-primary-color {
-  @apply bg-gradient-to-br from-[#014871] to-[#c6dad0];
+    @apply bg-gradient-to-br from-[#014871] to-[#c6dad0];
 }
 
-/* Styling for elements with the 'active' class */
 .active {
-  @apply font-bold;
+    @apply font-bold ;
 }
 
-/* Utility class for setting text color with a gradient */
-.grey-primary-color {
-  @apply bg-gradient-to-b from-white to-gray-400 bg-clip-text font-bold text-transparent;
+.gray-primary-color {
+    @apply bg-gradient-to-b from-white to-gray-400 bg-clip-text font-bold text-transparent
 }
