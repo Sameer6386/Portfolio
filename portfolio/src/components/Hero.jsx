@@ -10,10 +10,10 @@ const Hero = () => {
       <div className="px-4 mx-auto max-w-7xl sm:px-8 relative z-20">
         <div className='max-w-xl mx-auto text-center'>
           <h1 className="text-4xl font-bold sm:text-6xl text-gray-primary-color">
-            I will Help You My Love
+            I will solve the your Frontend
           </h1>
           <p className="my-5 text-base text-white sm:text-xl">
-            What Do You Need Me For? Don't Hesitate Ask Me!
+            Don't Hesitate to Ask Me!
           </p>
           <div>
             <a href='#' title='' className="shadow-2xl mr-4 inline-flex items-center px-6 py-4 mt-8 font-semibold text-white bg-primary-color round-lg transition-all duration-200 hover:scale-110" role='button'> DownLoad CV</a>
@@ -25,10 +25,10 @@ const Hero = () => {
               <a href="#" className='transition-all duration-200 hover:scale-110 cursor-pointer'><AiFillInstagram className="w-[70px] h-auto" /></a>
               <a href="#" className='transition-all duration-200 hover:scale-110 cursor-pointer'><AiFillGithub className="w-[70px] h-auto" /></a>
             </div>
-            <div className="relative bottom-0 z-10 flex mx-auto justify-center">
-            <img className="left-[20px] top-[-20px] sm:left-20 sm:top-[-200px] absolute block w-auto h-[150px] sm:h-[500px]" src={notebookL} alt="" />
-
-
+            <div class="relative bottom-0 z-10 flex mx-auto justify-center">
+              <img class="left-[-20px] top-[-20px] sm:left-20  sm:top-[-200px] absolute block w-auto h-[150px]"src={notebookL} alt="" />
+              <img class="absolute sm:relative w-auto bottom-[-110px] right-[-70px] sm:bottom-0 sm:right-0 h-[500px]" src={notebookM} alt=""/>
+              <img class='right-0 sm:bottom-0 absolute block h-auto w-[800px] sm:w-[900px]' src={profilepic} alt=""/>
             </div>
           </div>
         </div>
