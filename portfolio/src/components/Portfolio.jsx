@@ -48,11 +48,11 @@ const Portfolio = () => {
                 </div>
                 <div className="mb-4 flex flex-col sm:grid-cols-8 rounded-lg bg-black/40 overflow-hidden shadow-xl z-1 sm:pr-5">
                     <a href="/" className='group h-48 col-span-3 md:h-80'>
-                        <img src={proj2} alt='' className='h-full w-full object-cover object-center transition duration-200 group-hover:scale-110 rounded-lg' />
+                        <img src={proj3} alt='' className='h-full w-full object-cover object-center transition duration-200 group-hover:scale-110 rounded-lg' />
                     </a>
                     <div className='flex flex-col col-span-4 p-4 mx-auto'>
                         <h2 className='text-gray-200 font-bold text-xl leading-10'>
-                            Project#2
+                            Project#3
                         </h2>
                         <p className='text-gray-400'>
                             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem repellendus minus dignissimos labore, nam incidunt unde laudantium aliquam ratione consectetur.
@@ -66,11 +66,11 @@ const Portfolio = () => {
 
                 <div className="mb-4 flex flex-col sm:grid-cols-8 rounded-lg bg-black/40 overflow-hidden shadow-xl z-1 sm:pr-5">
                     <a href="/" className='group h-48 col-span-3 md:h-80'>
-                        <img src={proj2} alt='' className='h-full w-full object-cover object-center transition duration-200 group-hover:scale-110 rounded-lg' />
+                        <img src={proj4} alt='' className='h-full w-full object-cover object-center transition duration-200 group-hover:scale-110 rounded-lg' />
                     </a>
                     <div className='flex flex-col col-span-4 p-4 mx-auto'>
                         <h2 className='text-gray-200 font-bold text-xl leading-10'>
-                            Project#2
+                            Project#4
                         </h2>
                         <p className='text-gray-400'>
                             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem repellendus minus dignissimos labore, nam incidunt unde laudantium aliquam ratione consectetur.
